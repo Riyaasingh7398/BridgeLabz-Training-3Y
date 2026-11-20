@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Q9 - Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Registration Form</h1>
+    <form id="registrationForm" novalidate>
+        <label>Name</label>
+        <input id="name" type="text" placeholder="Enter your name">
+        <small id="nameError" class="error"></small>
+
+        <label>Email</label>
+        <input id="email" type="text" placeholder="Enter your email">
+        <small id="emailError" class="error"></small>
+
+        <label>Password</label>
+        <input id="password" type="password" placeholder="Minimum 6 characters">
+        <small id="passwordError" class="error"></small>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="successMessage" class="success"></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

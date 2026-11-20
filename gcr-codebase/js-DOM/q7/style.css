@@ -1,0 +1,20 @@
+﻿body { font-family: Arial, sans-serif; padding: 25px; background: #f4f6f9; }
+.container { max-width: 700px; margin: auto; background: white; padding: 25px; border-radius: 10px; }
+#mouseBox {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    background: #e5eaf2;
+    border: 2px solid #315da8;
+    position: relative;
+    overflow: hidden;
+}
+.red-dot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}

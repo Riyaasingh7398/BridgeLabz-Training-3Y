@@ -1,0 +1,17 @@
+﻿body { font-family: Arial, sans-serif; padding: 30px; background: #f4f6f9; }
+.container { max-width: 500px; margin: auto; background: white; padding: 25px; border-radius: 10px; }
+.dropdown { position: relative; display: inline-block; }
+#dropdownButton { min-width: 200px; text-align: left; }
+.options {
+    position: absolute;
+    top: 45px;
+    left: 5px;
+    width: 200px;
+    background: white;
+    border: 1px solid #aaa;
+    box-shadow: 0 2px 8px #ccc;
+    z-index: 2;
+}
+.option { padding: 12px; cursor: pointer; }
+.option:hover { background: #e5ebf5; }
+.hidden { display: none; }
